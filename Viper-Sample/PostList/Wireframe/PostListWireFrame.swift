@@ -39,6 +39,10 @@ class PostListWireFrame: PostListWireFrameProtocol {
     }
     
     func presentPostDetailScreen(from view: PostListViewProtocol, forPost post: PostModel) {
+        let postDetailVC = PostDetailWireframe.createPostDetailModule(forPost: post)
         
+        if let sourceView = view as? UIViewController {
+            sourceView.navigationController?.pushViewController(postDetailVC, animated: true)
+        }
     }
 }

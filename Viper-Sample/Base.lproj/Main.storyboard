@@ -87,6 +87,56 @@
             </objects>
             <point key="canvasLocation" x="476" y="133.5832083958021"/>
         </scene>
+        <!--Post Detail View-->
+        <scene sceneID="oF2-PN-dpw">
+            <objects>
+                <viewController storyboardIdentifier="PostDetailController" id="HSM-8Y-IvK" customClass="PostDetailView" customModule="Viper_Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Suw-65-k7J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-Bq-MQV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="tmp-Qd-RXm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8L-d2-kt2">
+                                <rect key="frame" x="16" y="216" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPv-qI-Fcg">
+                                <rect key="frame" x="16" y="256" width="343" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dqv-Bq-MQV" firstAttribute="leading" secondItem="w09-67-cBc" secondAttribute="leading" id="4wS-rC-cxY"/>
+                            <constraint firstItem="Dqv-Bq-MQV" firstAttribute="top" secondItem="Suw-65-k7J" secondAttribute="top" id="5xt-TL-4D8"/>
+                            <constraint firstItem="wPv-qI-Fcg" firstAttribute="top" secondItem="G8L-d2-kt2" secondAttribute="bottom" constant="16" id="F4T-RR-r7G"/>
+                            <constraint firstItem="w09-67-cBc" firstAttribute="trailing" secondItem="wPv-qI-Fcg" secondAttribute="trailing" constant="16" id="F5C-FU-nr2"/>
+                            <constraint firstItem="G8L-d2-kt2" firstAttribute="top" secondItem="Dqv-Bq-MQV" secondAttribute="bottom" constant="16" id="MyY-EA-Dli"/>
+                            <constraint firstItem="Dqv-Bq-MQV" firstAttribute="trailing" secondItem="w09-67-cBc" secondAttribute="trailing" id="i0Z-dh-UH2"/>
+                            <constraint firstItem="w09-67-cBc" firstAttribute="trailing" secondItem="G8L-d2-kt2" secondAttribute="trailing" constant="16" id="jda-as-AVQ"/>
+                            <constraint firstItem="G8L-d2-kt2" firstAttribute="leading" secondItem="w09-67-cBc" secondAttribute="leading" constant="16" id="uwM-Nd-rgS"/>
+                            <constraint firstItem="wPv-qI-Fcg" firstAttribute="leading" secondItem="w09-67-cBc" secondAttribute="leading" constant="16" id="vSx-9D-xvp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w09-67-cBc"/>
+                    </view>
+                    <connections>
+                        <outlet property="postImageView" destination="Dqv-Bq-MQV" id="DxJ-rg-NLy"/>
+                        <outlet property="titleLabel" destination="G8L-d2-kt2" id="MWI-Cz-46O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haj-pz-Sfj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1244" y="133.5832083958021"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="XWH-9k-6c9">
             <objects>
