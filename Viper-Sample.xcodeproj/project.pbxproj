@@ -14,14 +14,22 @@
 		EB1925471F99DEF20060D983 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1925461F99DEF20060D983 /* Post.swift */; };
 		EB1925491F99E0FE0060D983 /* Post+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1925481F99E0FE0060D983 /* Post+CoreDataProperties.swift */; };
 		EB19254B1F99E2A80060D983 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19254A1F99E2A80060D983 /* PostModel.swift */; };
+		EB19254F1F99E8DC0060D983 /* PostListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB19254E1F99E8DC0060D983 /* PostListProtocols.swift */; };
 		EB4CD7EE1F99D0D60061415C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD7ED1F99D0D60061415C /* AppDelegate.swift */; };
-		EB4CD7F01F99D0D60061415C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD7EF1F99D0D60061415C /* ViewController.swift */; };
 		EB4CD7F31F99D0D60061415C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CD7F11F99D0D60061415C /* Main.storyboard */; };
 		EB4CD7F61F99D0D60061415C /* Viper_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD7F41F99D0D60061415C /* Viper_Sample.xcdatamodeld */; };
 		EB4CD7F81F99D0D60061415C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4CD7F71F99D0D60061415C /* Assets.xcassets */; };
 		EB4CD7FB1F99D0D60061415C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CD7F91F99D0D60061415C /* LaunchScreen.storyboard */; };
 		EB4CD8061F99D0D60061415C /* Viper_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD8051F99D0D60061415C /* Viper_SampleTests.swift */; };
 		EB4CD8111F99D0D60061415C /* Viper_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CD8101F99D0D60061415C /* Viper_SampleUITests.swift */; };
+		EBDD15771F9ED5FF0048E131 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD15761F9ED5FF0048E131 /* PostListView.swift */; };
+		EBDD15791F9EDBD40048E131 /* PostListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD15781F9EDBD40048E131 /* PostListCell.swift */; };
+		EBDD157C1F9EE6160048E131 /* PostListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD157B1F9EE6160048E131 /* PostListPresenter.swift */; };
+		EBDD157F1F9EF48E0048E131 /* PostListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD157E1F9EF48E0048E131 /* PostListInteractor.swift */; };
+		EBDD15831F9F13B40048E131 /* PostListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD15821F9F13B40048E131 /* PostListLocalDataManager.swift */; };
+		EBDD15851F9F14E10048E131 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD15841F9F14E10048E131 /* CoreDataStore.swift */; };
+		EBDD15881F9F168D0048E131 /* PostListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD15871F9F168D0048E131 /* PostListRemoteDataManager.swift */; };
+		EBDD158B1F9F1E770048E131 /* PostListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD158A1F9F1E770048E131 /* PostListWireFrame.swift */; };
 		F838B6EA5D97353DE8F744FD /* Pods_Viper_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AB02C0FA4A6FF9FCE605CF /* Pods_Viper_Sample.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,9 +65,9 @@
 		EB1925461F99DEF20060D983 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EB1925481F99E0FE0060D983 /* Post+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EB19254A1F99E2A80060D983 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		EB19254E1F99E8DC0060D983 /* PostListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListProtocols.swift; sourceTree = "<group>"; };
 		EB4CD7EA1F99D0D60061415C /* Viper-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4CD7ED1F99D0D60061415C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4CD7EF1F99D0D60061415C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB4CD7F21F99D0D60061415C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4CD7F51F99D0D60061415C /* Viper_Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viper_Sample.xcdatamodel; sourceTree = "<group>"; };
 		EB4CD7F71F99D0D60061415C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +79,14 @@
 		EB4CD80C1F99D0D60061415C /* Viper-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viper-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4CD8101F99D0D60061415C /* Viper_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viper_SampleUITests.swift; sourceTree = "<group>"; };
 		EB4CD8121F99D0D60061415C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBDD15761F9ED5FF0048E131 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		EBDD15781F9EDBD40048E131 /* PostListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListCell.swift; sourceTree = "<group>"; };
+		EBDD157B1F9EE6160048E131 /* PostListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListPresenter.swift; sourceTree = "<group>"; };
+		EBDD157E1F9EF48E0048E131 /* PostListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListInteractor.swift; sourceTree = "<group>"; };
+		EBDD15821F9F13B40048E131 /* PostListLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListLocalDataManager.swift; sourceTree = "<group>"; };
+		EBDD15841F9F14E10048E131 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		EBDD15871F9F168D0048E131 /* PostListRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListRemoteDataManager.swift; sourceTree = "<group>"; };
+		EBDD158A1F9F1E770048E131 /* PostListWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListWireFrame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +159,27 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		EB19254C1F99E8980060D983 /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD15891F9F1E5F0048E131 /* Wireframe */,
+				EBDD15801F9F139C0048E131 /* DataManager */,
+				EBDD157D1F9EF41B0048E131 /* Interactor */,
+				EBDD157A1F9EDF7F0048E131 /* Presenter */,
+				EBDD15751F9ED5CC0048E131 /* View */,
+				EB19254D1F99E8CB0060D983 /* Protocols */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		EB19254D1F99E8CB0060D983 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB19254E1F99E8DC0060D983 /* PostListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		EB4CD7E11F99D0D60061415C = {
 			isa = PBXGroup;
 			children = (
@@ -170,13 +207,14 @@
 			children = (
 				EB1925401F99DD7E0060D983 /* Common */,
 				EB1925451F99DEDC0060D983 /* Entities */,
+				EB19254C1F99E8980060D983 /* PostList */,
 				EB4CD7ED1F99D0D60061415C /* AppDelegate.swift */,
-				EB4CD7EF1F99D0D60061415C /* ViewController.swift */,
 				EB4CD7F11F99D0D60061415C /* Main.storyboard */,
 				EB4CD7F71F99D0D60061415C /* Assets.xcassets */,
 				EB4CD7F91F99D0D60061415C /* LaunchScreen.storyboard */,
 				EB4CD7FC1F99D0D60061415C /* Info.plist */,
 				EB4CD7F41F99D0D60061415C /* Viper_Sample.xcdatamodeld */,
+				EBDD15841F9F14E10048E131 /* CoreDataStore.swift */,
 			);
 			path = "Viper-Sample";
 			sourceTree = "<group>";
@@ -197,6 +235,64 @@
 				EB4CD8121F99D0D60061415C /* Info.plist */,
 			);
 			path = "Viper-SampleUITests";
+			sourceTree = "<group>";
+		};
+		EBDD15751F9ED5CC0048E131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD15761F9ED5FF0048E131 /* PostListView.swift */,
+				EBDD15781F9EDBD40048E131 /* PostListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBDD157A1F9EDF7F0048E131 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD157B1F9EE6160048E131 /* PostListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EBDD157D1F9EF41B0048E131 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD157E1F9EF48E0048E131 /* PostListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		EBDD15801F9F139C0048E131 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD15861F9F16780048E131 /* Remote */,
+				EBDD15811F9F13A30048E131 /* Local */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		EBDD15811F9F13A30048E131 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD15821F9F13B40048E131 /* PostListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		EBDD15861F9F16780048E131 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD15871F9F168D0048E131 /* PostListRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		EBDD15891F9F1E5F0048E131 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				EBDD158A1F9F1E770048E131 /* PostListWireFrame.swift */,
+			);
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,13 +576,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBDD15851F9F14E10048E131 /* CoreDataStore.swift in Sources */,
+				EBDD157F1F9EF48E0048E131 /* PostListInteractor.swift in Sources */,
 				EB1925421F99DDA20060D983 /* PersistenceError.swift in Sources */,
 				EB19254B1F99E2A80060D983 /* PostModel.swift in Sources */,
-				EB4CD7F01F99D0D60061415C /* ViewController.swift in Sources */,
 				EB4CD7F61F99D0D60061415C /* Viper_Sample.xcdatamodeld in Sources */,
+				EBDD15881F9F168D0048E131 /* PostListRemoteDataManager.swift in Sources */,
+				EBDD158B1F9F1E770048E131 /* PostListWireFrame.swift in Sources */,
+				EBDD15791F9EDBD40048E131 /* PostListCell.swift in Sources */,
 				EB1925471F99DEF20060D983 /* Post.swift in Sources */,
+				EBDD15771F9ED5FF0048E131 /* PostListView.swift in Sources */,
 				EB1925491F99E0FE0060D983 /* Post+CoreDataProperties.swift in Sources */,
 				EB4CD7EE1F99D0D60061415C /* AppDelegate.swift in Sources */,
+				EB19254F1F99E8DC0060D983 /* PostListProtocols.swift in Sources */,
+				EBDD157C1F9EE6160048E131 /* PostListPresenter.swift in Sources */,
+				EBDD15831F9F13B40048E131 /* PostListLocalDataManager.swift in Sources */,
 				EB1925441F99DDEE0060D983 /* Endpoints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
